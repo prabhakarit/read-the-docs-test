@@ -1,4 +1,4 @@
-API
+APIGateway-Call-with-IAM-authentication-token
 ===
 
 .. autosummary::
