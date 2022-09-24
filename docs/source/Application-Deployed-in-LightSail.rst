@@ -51,6 +51,20 @@ Source Website Tech Stack
 
 Migration Steps
 ----------------
+#. Test local run of the application.
+  * Unzip the MB application file and open it with Framework which you are using. 
+  * install webpack using brew 
+  * install babel using brew 
+  * npm install --save-dev babel-loader @babel/core @babel/preset-env webpack 
+  * npm run build 
+  * npm install http-server -g 
+  * npm start 
+  * npx http-server  
+  * You should see the application is started. 
+  * You could see the below kind of links to access the application. 
+  * Available on: 
+    * http://127.0.0.1:9999
+    * http://10.0.0.4:9999
 
 Migration Outcome
 ----------------
