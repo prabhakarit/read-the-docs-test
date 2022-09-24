@@ -15,6 +15,16 @@ Build and Run the MB Application in LightSail.
 Pre-Requisites
 ----------------
 
+* MB Application Zip File.
+* AWS Account with Free Tier Access .
+* Chrome Browser for using lighthouse Extension.
+* Demo Website to migrate http://www.mercedes-benz-versicherung.de
+* Basic Knowledge of AWS
+* IntelliJ or any Framework which support React
+* Install Node Js, NPM & React js
+* Home Brew
+* Docker
+
 To build documentation,
 you can use the ``ReadTheDocsDemo.build_documentation()`` function:
 
@@ -34,6 +44,10 @@ build complete
 
 Source Website Tech Stack
 ----------------
+
+* JQuery.
+* Google Maps.
+* UserCentrics.
 
 Migration Steps
 ----------------
