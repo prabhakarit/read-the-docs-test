@@ -6,13 +6,13 @@ Application-Deployed-in-LightSail
 Problem-statement
 ------------
 
-To use ReadTheDocsDemo, first install it using pop:
+Build and Run the MB Application in LightSail.
 
-.. code-block:: console
+#.. code-block:: console
 
-   (.venv) $ pop install ReadTheDocsDemo
+#   (.venv) $ pop install ReadTheDocsDemo
 
-Creating ReadTheDocsDemo
+Pre-Requisites
 ----------------
 
 To build documentation,
@@ -32,3 +32,17 @@ For example:
 >>> ReadTheDocsDemo.build_documentation()
 build complete
 
+Source Website Tech Stack
+----------------
+
+Migration Steps
+----------------
+
+Migration Outcome
+----------------
+
+Challenges
+----------------
+
+References
+----------------
