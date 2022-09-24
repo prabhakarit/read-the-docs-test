@@ -16,5 +16,5 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   Application Deployed in LightSail
+   API Gateway Call with IAM authentication token
