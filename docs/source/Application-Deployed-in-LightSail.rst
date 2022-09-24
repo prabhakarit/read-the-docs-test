@@ -8,10 +8,6 @@ Problem-statement
 
 Build and Run the MB Application in LightSail.
 
-#.. code-block:: console
-
-#   (.venv) $ pop install ReadTheDocsDemo
-
 Pre-Requisites
 ----------------
 
@@ -63,8 +59,11 @@ Migration Steps
   * You should see the application is started. 
   * You could see the below kind of links to access the application. 
   * Available on: 
-    * http://127.0.0.1:9999
-    * http://10.0.0.4:9999
+    * http://127.0.0.1:9999.
+    * http://10.0.0.4:9999.
+#. In the MB application file change the version of PHP in Container.file from 7 to 8.
+.. code-block:: console
+  RUN apk update && apk add php8-apache2 php8-curl && \ln -sfv /dev/stdout /var/log/apache2/access.log && \ln -sfv /dev/stderr /var/log/apache2/error.log
 
 Migration Outcome
 ----------------
