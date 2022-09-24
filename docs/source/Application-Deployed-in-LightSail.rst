@@ -1,9 +1,9 @@
-Usage
+Application-Deployed-in-LightSail
 =====
 
-.. _installation:
+.. _problem-statement:
 
-Installation
+Problem-statement
 ------------
 
 To use ReadTheDocsDemo, first install it using pop:
