@@ -6,29 +6,29 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use ReadTheDocsDemo, first install it using pop:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pop install ReadTheDocsDemo
 
-Creating recipes
+Creating ReadTheDocsDemo
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To build documentation,
+you can use the ``ReadTheDocsDemo.build_documentation()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+.. autofunction:: ReadTheDocsDemo.build_documentation
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
+The ``docType`` parameter should be either ``"pdf"``, ``"html"``,
+or ``"epub"``. Otherwise, :py:func:`ReadTheDocsDemo.build_documentation`
 will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
+.. autoexception:: ReadTheDocsDemo.InvalidKindError
 
 For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+>>> import ReadTheDocsDemo
+>>> ReadTheDocsDemo.build_documentation()
+build complete
 
