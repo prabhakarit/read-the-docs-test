@@ -17,4 +17,4 @@ Contents
 .. toctree::
 
    Application-Deployed-in-LightSail
-   APIGateway-Call-with-IAM-authentication-token
+   APIGateway-IAM-authentication
