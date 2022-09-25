@@ -53,7 +53,6 @@ Migration Steps
 #. Build the docker Image and Push into ECR by using the below command. Create a copy of the Conatinerfile and Rename the Copy with “Dockerfile”.
 
 .. image:: ./images/mb-yml-config.png
-
  :width: 400
  :alt: create docker file
  * aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 845835842856.dkr.ecr.us-east-1.amazonaws.com.
