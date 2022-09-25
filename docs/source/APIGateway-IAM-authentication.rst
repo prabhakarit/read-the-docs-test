@@ -1,4 +1,4 @@
-APIGateway-Call-with-IAM-authentication-token
+APIGateway-IAM-authentication
 ======
 .. _problem-statement:
 
