@@ -1,8 +1,8 @@
-This is a example for Docs tutorial
+This is a template to use ReaedTheDocs integration
 =======================================
 
-This GitHub template includes no content, only used for testing building first documentation.
+This GitHub template includes example content to format the documentation, add images, adding bullet points.
 
-Read the tutorial here:
+Doc URL:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://read-the-docs-ppb-test.readthedocs.io/en/latest/
