@@ -54,7 +54,7 @@ Migration Steps
 
     RUN apk update && apk add php8-apache2 php8-curl && \ln -sfv /dev/stdout /var/log/apache2/access.log && \ln -sfv /dev/stderr /var/log/apache2/error.log
     
-#. Build the docker Image and Push into ECR by using the below command. Create a copy of the Conatinerfile and Rename the Copy with “Dockerfile”.
+#. Build the docker Image and Push into ECR by using the below command. Create a copy of the Conatinerfile and Rename the Copy with "Dockerfile".
 
 .. image:: ./images/mb-yml-config.png
    :width: 400
