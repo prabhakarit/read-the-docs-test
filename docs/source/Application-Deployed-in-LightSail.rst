@@ -1,10 +1,6 @@
 Application-Deployed-in-LightSail
 =====
 
-.. image:: ./images/mb-yml-config.png
-   :width: 400
-   :alt: create docker file
-
 .. _problem-statement:
 
 Problem-statement
@@ -46,8 +42,8 @@ Migration Steps
   * You should see the application is started. 
   * You could see the below kind of links to access the application. 
   * Available on: 
-    * http://127.0.0.1:9999.
-    * http://10.0.0.4:9999.
+   * http://127.0.0.1:9999.
+   * http://10.0.0.4:9999.
 #. In the MB application file change the version of PHP in Container.file from 7 to 8.
 .. code-block:: console
     RUN apk update && apk add php8-apache2 php8-curl && \ln -sfv /dev/stdout /var/log/apache2/access.log && \ln -sfv /dev/stderr /var/log/apache2/error.log
