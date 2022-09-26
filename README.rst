@@ -1,4 +1,4 @@
-This is a template to use ReaedTheDocs integration
+This is a template to use ReadTheDocs integration
 =======================================
 
 This GitHub template includes example content to format the documentation, add images, adding bullet points.
