@@ -1,12 +1,11 @@
-               React SPA S3 Deployment 
+As-Is-Docs-Testing
+=====
 
- 
+.. _react-spa:
 
- 
+React SPA S3 Deployment 
 
- 
-
-    Problem Statement 
+Problem Statement 
 
  
 
