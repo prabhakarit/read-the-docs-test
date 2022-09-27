@@ -18,3 +18,4 @@ Contents
 
    Application-Deployed-in-LightSail
    APIGateway-IAM-authentication
+   As-Is-Docs-Testing
